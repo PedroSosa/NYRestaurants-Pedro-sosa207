@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="softdrive.com.nyrestaurants.Controladores.DetallesActivity"
+    tools:showIn="@layout/activity_detalles">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="175sp"
+            android:layout_height="175sp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15sp"
+            android:id="@+id/imgRest1"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:layout_margin="2sp"
+            android:textSize="23sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/name1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgRest1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:layout_margin="2sp"
+            android:textSize="23sp"
+            android:id="@+id/telefono1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/name1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            android:layout_margin="2sp"
+            android:textSize="23sp"
+            android:id="@+id/direccion1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/telefono1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ciudad"
+            android:layout_margin="2sp"
+            android:textSize="23sp"
+            android:id="@+id/city1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/direccion1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            android:layout_margin="2sp"
+            android:textSize="23sp"
+            android:id="@+id/area1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/city1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo Postal"
+            android:layout_margin="2sp"
+            android:textSize="23sp"
+            android:id="@+id/postal1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/area1"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>

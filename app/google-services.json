@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466839645287",
+    "firebase_url": "https://nyrestaurantsxd.firebaseio.com",
+    "project_id": "nyrestaurantsxd",
+    "storage_bucket": "nyrestaurantsxd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466839645287:android:a242bd4cfba08dc4",
+        "android_client_info": {
+          "package_name": "softdrive.com.nyrestaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466839645287-gfbf67ohov6j361vdplt768k58tv1knt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "softdrive.com.nyrestaurants",
+            "certificate_hash": "e98838863250515781fe181bb4f527453cb3b142"
+          }
+        },
+        {
+          "client_id": "466839645287-dlt3rtfelh1it0800u1idslafmtkhbge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBViuMS08NtnuHF1P8BplIeUL23F0zOpFY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466839645287-dlt3rtfelh1it0800u1idslafmtkhbge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
